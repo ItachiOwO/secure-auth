@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Secure Authentication System
 
 A secure web application with user authentication featuring password hashing, salt generation, and CAPTCHA verification.
