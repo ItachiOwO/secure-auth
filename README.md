@@ -24,7 +24,7 @@ secure-auth/
 │   ├── login.js        # Login-specific logic
 │   └── styles.css      # Styling
 ├── backend/            # Server-side application
-│   ├── server.js       # Main server file
+│   ├── server.js       # Main server file with all endpoints
 │   ├── auth.js         # Authentication logic
 │   └── package.json    # Backend dependencies
 ├── database/           # Database layer
@@ -74,7 +74,7 @@ secure-auth/
    ```
    Or run the server directly:
    ```bash
-   node server.js
+   node backend/server.js
    ```
 
 4. Open your browser and navigate to `http://localhost:3000`

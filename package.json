@@ -1,7 +1,16 @@
 {
+  "name": "secure-auth",
+  "version": "1.0.0",
+  "description": "A secure web application with user authentication featuring password hashing, salt generation, and CAPTCHA verification",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "node backend/server.js"
+  },
   "dependencies": {
     "body-parser": "^1.20.3",
     "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
     "express": "^4.21.2",
     "express-rate-limit": "^7.5.0",
     "express-session": "^1.18.1",
